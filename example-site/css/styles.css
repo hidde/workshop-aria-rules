@@ -110,6 +110,9 @@ video {
             grid-template-columns: repeat( 3, minmax( auto, 1fr ) );
         }
     }
+    .speakers__list li {
+        list-style: none;
+    }
     .speakers__list img {
         width: 100%;
         height: auto;
