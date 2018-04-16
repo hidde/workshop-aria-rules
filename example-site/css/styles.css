@@ -1,6 +1,19 @@
 * {
     box-sizing: border-box;
-    outline: none;
+}
+
+:focus {
+    outline: 2px solid hotpink;
+}
+
+.skiplink,
+.visually-hidden {
+    position: absolute;
+    left: -9999em;
+}
+.skiplink:focus {
+    left: 0;
+    top: 0;
 }
 
 body {
@@ -40,6 +53,8 @@ video {
     border-radius: 2em 0;
     color: black;
     display: inline-block;
+    border: 0;
+    font: inherit;
 }
 .button:hover {
     background-color: cornflowerblue;

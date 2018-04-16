@@ -11,43 +11,44 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/fontawesome.css" integrity="sha384-8WwquHbb2jqa7gKWSoAwbJBV2Q+/rQRss9UXL5wlvXOZfSodONmVnifo/+5xJIWX" crossorigin="anonymous">
 </head>
 <body>
-  <section class="header">
-    <img src="images/logo.png" width="459" height="118">
-  </section>
-  <section class="intro">
-    <p>ARIA Rules is a one day conference about roles, names and states, organised bi-anually in beautiful New York.</p> <span class="button" onclick="window.location = '/tickets';">Get a ticket</span>
-  </section>
-  <section class="speakers">
-    <h4 class="speakers__heading heading">Speakers</h4>
+  <a href="#speakers" class="skiplink">Speakers</a>
+  <header class="header">
+    <h1><img src="images/logo.png" width="459" height="118" alt="ARIA Rules conference"></h1>
+    <section class="intro">
+      <p>ARIA Rules is a one day conference about roles, names and states, organised bi-anually in beautiful New York.</p> <a class="button" href="/tickets">Get a ticket</a>
+    </section>
+  </header>
+  <section id="speakers" class="speakers">
+    <h2 class="speakers__heading heading">Speakers</h2>
     <div class="speakers__list">
       <div class="speaker">
-        <div><img src="images/alberta.png" width="150" height="150"><span class="speaker__name">Alberta Hunter</span></div>
+        <div><img src="images/alberta.png" width="150" height="150" alt=""><span class="speaker__name">Alberta Hunter</span></div>
       </div>
       <div class="speaker">
-        <div><img src="images/hilde.png" width="150" height="150"><span class="speaker__name">Hilde Marie Kjersem</span></div>
+        <div><img src="images/hilde.png" width="150" height="150" alt=""><span class="speaker__name">Hilde Marie Kjersem</span></div>
       </div>
       <div class="speaker">
-        <div><img src="images/alice.png" width="150" height="150"><span class="speaker__name">Alice Faye</span></div>
+        <div><img src="images/alice.png" width="150" height="150" alt=""><span class="speaker__name">Alice Faye</span></div>
       </div>
       <div class="speaker">
-        <div><img src="images/abbey.png" width="150" height="150"><span class="speaker__name">Abbey Lincoln</span></div>
+        <div><img src="images/abbey.png" width="150" height="150" alt=""><span class="speaker__name">Abbey Lincoln</span></div>
       </div>
       <div class="speaker">
-        <div><img src="images/patti.png" width="150" height="150"><span class="speaker__name">Patti Austin</span></div>
+        <div><img src="images/patti.png" width="150" height="150" alt=""><span class="speaker__name">Patti Austin</span></div>
       </div>
       <div class="speaker">
-        <div><img src="images/frances.png" width="150" height="150"><span class="speaker__name">Frances Langford</span></div>
+        <div><img src="images/frances.png" width="150" height="150" alt=""><span class="speaker__name">Frances Langford</span></div>
       </div>
     </div>
   </section>
   <section class="cfp">
     <h2 class="cfp__heading heading">Call for proposals</h2>
     <blockquote>
-      <p>ARIA Rules est ma conférence Web préférée</p>
-      <p>— Jean-Luc, speaker</p>
+      <p lang="fr">ARIA Rules est ma conférence Web préférée</p>
+      <cite>— Jean-Luc, speaker</cite>
     </blockquote>
     <div>
-      <p>If you'd like to speak at ARIA Rules, get in touch before 9 May, 2018. We use an anonmous Call For Proposals, which means the peole who look at your proposal will not see you who you are, they will only have the contents of your talk description to judge.</p>
+      <p>If you'd like to speak at ARIA Rules, get in touch before 9 May, 2018. We use an anonmous Call For Proposals, which means the people who look at your proposal will not see you who you are, they will only have the contents of your talk description to judge.</p>
       <p>You can apply using our <a href="#">online form</a>.</p>
     </div>
   </section>
@@ -68,7 +69,7 @@
   </section>
   <section class="sponsoring">
     <div>
-      <h3 class="sponsoring__heading heading  ">Sponsoring</h3>
+      <h2 class="sponsoring__heading heading  ">Sponsoring</h2>
       <p>Please find our sponsor offering below.</p>
       <div class="sponsoring__options">
         <ul>
@@ -77,15 +78,15 @@
           <li><a href="#gold">Gold</a></li>
         </ul>
         <div id="bronze">
-          <h2 class="sponsoring__option-heading">Bronze</h2>
+          <h3 class="sponsoring__option-heading">Bronze</h3>
           <p>For €500, we will show your logo during all the coffee breaks.</p>
         </div>
         <div id="silver">
-          <h2 class="sponsoring__option-heading">Silver</h2>
+          <h3 class="sponsoring__option-heading">Silver</h3>
           <p>For €1500, we will show your logo during all the coffee and lunch breaks and put your logo on the conference badges. You will also get 2 tickets to the conference.</p>
         </div>
         <div id="gold">
-          <h2 class="sponsoring__option-heading">Gold</h2>
+          <h3 class="sponsoring__option-heading">Gold</h3>
           <p>For €3000, we will show your loog during all the coffee and lunch breaks, put your logo on the conference badges and introduce your company before every other talk. You will also get 4 tickets to the conference.</p>
         </div>
       </div>
@@ -97,11 +98,22 @@
       <div class="newsletter__form-heading">Sign up for our newsletter</div>
       <label for="newsletter-email">E-mail</label>
       <input type="email" id="newsletter-email">
-      <div onclick="this.closest('form').submit()" class="button">Sign up</div>
+      <button type="submit" class="button">Sign up</button>
     </form>
   </section>
   <footer class="footer">
-    <p>© 2018 ARIA Society ∙ <a href="mailto:us"><i class="fas fa-envelope"></i></a> <a href="twitter.com/ariarules"><i class="fab fa-twitter"></i></a></p>
+    <p>© 2018 ARIA Society ∙ 
+      <a href="mailto:us">
+        <span class="fas fa-envelope">
+          <span class="visually-hidden">
+            Email us
+          </span>
+        </span>
+      </a> 
+      <a href="twitter.com/ariarules">
+        <span class="fab fa-twitter"><span class="visually-hidden"></span></span>
+      </a>
+    </p>
   </footer>
 </body>
 </html>
