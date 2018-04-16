@@ -33,7 +33,7 @@ and some relevant links.
 ## Online learning
 
 * [Google's Udacity Course](https://eu.udacity.com/course/web-accessibility--ud891)
-* [Marchy Sutton's online course](https://egghead.io/courses/start-building-accessible-web-applications-today)
+* [Marcy Sutton's online course](https://egghead.io/courses/start-building-accessible-web-applications-today)
 
 ## Offline learning (books)
 
