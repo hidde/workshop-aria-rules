@@ -18,7 +18,12 @@ and some relevant links.
 ### Text alternatives
 
 * [How to Design Great Alt Text: An Introduction](https://www.deque.com/blog/great-alt-text-introduction/)
-* [An Alt  Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+* [An Alt  Decision  Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+
+### Structure
+
+* [How to structure headings for web accessibility](https://www.nomensa.com/blog/2017/how-structure-headings-web-accessibility)
+* [Heading structures are tables of contents](https://hiddedevries.nl/en/blog/2018-09-01-heading-structures-are-tables-of-contents )
 
 ## Staying up to date
 
