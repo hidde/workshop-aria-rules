@@ -3,11 +3,13 @@
 In this repository you will find our example site, the slides 
 and some relevant links. 
 
-## Official documentation
+## Specifications and W3C documentation
 
 * [HTML Living Standard, Developer Edition](https://developer.whatwg.org)
-* [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
+* [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) (note: test with users before using, consider making it work with less ARIA)
 * [Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/)
+* [Using ARIA](https://www.w3.org/TR/using-aria/)
+* [W3C/WAI](https://www.w3.org/WAI/)
 
 ## Building accessible components
 
@@ -24,6 +26,16 @@ and some relevant links.
 
 * [How to structure headings for web accessibility](https://www.nomensa.com/blog/2017/how-structure-headings-web-accessibility)
 * [Heading structures are tables of contents](https://hiddedevries.nl/en/blog/2018-09-01-heading-structures-are-tables-of-contents )
+
+### Hiding
+
+* [WebAIM: Invisible content](http://webaim.org/techniques/css/invisiblecontent/)
+* [Hiding content - hiddedevries.nl](https://hiddedevries.nl/en/blog/2017-04-11-on-hiding-content)
+
+### Accessibility Tree
+
+* [How accessibility trees inform assistive tech - Mozilla Hacks](https://hacks.mozilla.org/2019/06/how-accessibility-trees-inform-assistive-tech/)
+* [Naming things to improve accessibility - hiddedevries.nl](https://hiddedevries.nl/en/blog/2019-04-18-naming-things-to-improve-accessibility)
 
 ## Staying up to date
 
