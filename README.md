@@ -15,10 +15,15 @@ and some relevant links.
 * [ally.js](//allyjs.io)
 * Patterns section on [The A11y Project](https://a11yproject.com)
 
+### Text alternatives
+
+* [How to Design Great Alt Text: An Introduction](https://www.deque.com/blog/great-alt-text-introduction/)
+* [An Alt  Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+
 ## Staying up to date
 
 * [A11Y Weekly](//a11yweekly.com)
-* [WebAIM](https://webaim.org)
+* [WebAIM](https://webaim.org) 
 
 ## Tools
 
@@ -33,7 +38,7 @@ and some relevant links.
 ## Online learning
 
 * [Google's Udacity Course](https://eu.udacity.com/course/web-accessibility--ud891)
-* [Marcy Sutton's online course](https://egghead.io/courses/start-building-accessible-web-applications-today)
+* [Marchy Sutton's online course](https://egghead.io/courses/start-building-accessible-web-applications-today)
 
 ## Offline learning (books)
 
