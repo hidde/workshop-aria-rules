@@ -3,13 +3,17 @@
 In this repository you will find our example site, the slides 
 and some relevant links. 
 
-## Specifications and W3C documentation
+## General
 
 * [HTML Living Standard, Developer Edition](https://developer.whatwg.org)
 * [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) (note: test with users before using, consider making it work with less ARIA)
 * [Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/)
 * [Using ARIA](https://www.w3.org/TR/using-aria/)
 * [W3C/WAI](https://www.w3.org/WAI/)
+
+## Background
+
+* [An Alphabet of Accessibility Issues](https://the-pastry-box-project.net/anne-gibson/2014-july-31) by Anne Gibson
 
 ## Building accessible components
 
@@ -61,3 +65,11 @@ and some relevant links.
 
 * [Apps for all](https://shop.smashingmagazine.com/products/apps-for-all) / [Inclusive Design Patterns](https://shop.smashingmagazine.com/products/inclusive-design-patterns) by Heydon Pickering
 * [Accessibility for everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag
+
+## Pattern libraries with accessibility in mind
+
+Look for test results and rationale before patterns from the web.
+
+* [Deque Cauldron](https://pattern-library.dequelabs.com/)
+* [Tenon UI](https://www.tenon-ui.info/)
+* [GOV.UK](https://design-system.service.gov.uk/)
